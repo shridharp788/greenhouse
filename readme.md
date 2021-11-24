@@ -45,5 +45,12 @@ Access the application at http://127.0.0.1:8000/dashboard
 
 There is also videodemo.webm file attached in order to quickly check the application 
 
+Code to look for quick review 
+/resources/assets/js/components/DashboardComponent.vue
+/resources/views/dashboard.blade.php
+/resources/views/dashboard.blade.php
+/app/Http/Controllers/GreenhouseController.php
+/routes/web.php
+
 
 
