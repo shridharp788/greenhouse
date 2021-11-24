@@ -4,30 +4,30 @@ The steps how I have created this project are as below
 
 This is CRUD Project which demonstrates usage of vuejs and laravel api 
 
-  User signup form is presented and on submit data is saved to sqlite and a tabular list is 
+  1. User signup form is presented and on submit data is saved to sqlite and a tabular list is 
   updated below the form in descedning order 
 
-  On first load , existing users are listed in ascending order 
+  2. On first load , existing users are listed in ascending order 
 
-  On every save of data, saved flash message is returned 
+  3. On every save of data, saved flash message is returned 
 
-  Created laravel skeleton project 
+  4. Created laravel skeleton project 
 
-  Npm installed vue js , bootstrapjs , jqueryjs
+  5. Npm installed vue js , bootstrapjs , jqueryjs
 
-  Created a form to take inputs email , usename and gender
+  6. Created a form to take inputs email , usename and gender
 
-  Created greenhouse.sqlite database in laravel root directory 
+  7. Created greenhouse.sqlite database in laravel root directory 
 
-  Configured laravel to use sqlite database 
+  8. Configured laravel to use sqlite database 
 
-  Created controller greenhouse using php artisan make:controller
+  9. Created controller greenhouse using php artisan make:controller
 
-  Created vuejs component dashboard and added in laravel-vue/resources/assets/js/components/DashboardComponent.vue
+  10. Created vuejs component dashboard and added in laravel-vue/resources/assets/js/components/DashboardComponent.vue
 
-  Updated app.js laravel-vue/resources/assets/js/app.js
+  11. Updated app.js laravel-vue/resources/assets/js/app.js
 
-  Added methods in Greenhousecontroller to return users from sqlite database 
+  12. Added methods in Greenhousecontroller to return users from sqlite database 
 
 **How to run this project ?**
 
