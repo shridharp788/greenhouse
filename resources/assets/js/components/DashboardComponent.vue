@@ -37,7 +37,6 @@
 
       <b-button type="submit" variant="primary">Submit</b-button>
       <b-button type="reset" variant="danger">Reset</b-button>
-      <b-button v-on:click="adddynamicentries" type="button" variant="danger">Insert Dynamic Entries</b-button>
     </b-form>
     <p class="savedinfo btn-info hide ">Saved</p>
               <table class="tabledata table table-striped table ">
@@ -72,10 +71,6 @@
                     //Perform Success Action
                     console.log(res.data);
                     this.users = res.data;
-                    // jQuery('.tabledata').hide();
-                    // jQuery('.tabledata').css('background-color', 'orange');
-                    // jQuery('.tabledata').show();
-
                 })
                 .catch((error) => {
                     // error.response.status Check status code
@@ -140,24 +135,6 @@
                     // this.$nextTick(() => {
                     //     this.show = true
                     // })
-            },
-            adddynamicentries(event) {
-                event.preventDefault()
-
-                axios.post('/greenhouse')
-                    .then((res) => {
-                        //Perform Success Action
-                        // console.log(res.data);
-                        this.users = res.data;
-                    })
-                    .catch((error) => {
-                        // error.response.status Check status code
-                        alert('Can not be saved ! ');
-                        console.log(error);
-
-                    }).finally(() => {
-                        //Perform action in always
-                    });
             }
         }
     }

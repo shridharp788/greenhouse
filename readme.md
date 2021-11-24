@@ -41,5 +41,9 @@ In other terminal also run one by one
 1. npm install 
 2. npm run watch 
 
+Access the application at http://127.0.0.1:8000/dashboard 
+
+There is also videodemo.webm file attached in order to quickly check the application 
+
 
 
